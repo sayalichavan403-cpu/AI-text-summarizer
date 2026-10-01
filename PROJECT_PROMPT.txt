@@ -1,0 +1,36 @@
+Create a complete college-level Python AI project titled "AI Text Summarizer" for Problem 9, Feature Set B.
+
+Mandatory features:
+1. Text/file input
+2. Generate AI summary
+3. Adjustable summary length with Short, Medium and Long options
+4. Display extracted key points
+
+Technical requirements:
+- Use Python with Flask for the backend.
+- Use Hugging Face Transformers with the facebook/bart-large-cnn summarization model for AI summarization.
+- Support TXT, PDF and DOCX file upload.
+- Use PyPDF2 for PDF extraction and python-docx for DOCX extraction.
+- Add a simple extractive key-point algorithm.
+- Return original word count and summary word count.
+- Make the UI modern, attractive, responsive and suitable for a BCA college project.
+- Include animated loading state, glassmorphism/dark AI dashboard styling, cards, statistics and mobile responsiveness.
+- Use separate HTML, CSS and JavaScript files.
+- Add proper error handling and input validation.
+- Keep the code beginner-friendly and well commented.
+- Do not use fake AI output or hard-coded summaries.
+
+Generate this exact folder structure:
+AI_Text_Summarizer_Feature_B/
+  app.py
+  requirements.txt
+  README.md
+  PROJECT_PROMPT.txt
+  templates/index.html
+  static/style.css
+  static/script.js
+
+Also provide exact commands to create a virtual environment, install dependencies, run the Flask application and open it in a browser.
+
+The final project must work when the user runs:
+python app.py
